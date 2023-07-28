@@ -20,4 +20,3 @@
 9,peer_list,BitTorrent,PeerToPeerCommunication,peer_db.csv,Ensure peer lists are up to date.
 10,seed_value,Domain registration API,DomainGenerationAlgorithm,seed_config.py,Domain generation aids in botnet resilience.
 11,backup_IP_list,Docker/Kubernetes,BackupCommandControlServer,backup_ips.csv,Regular backups are crucial for maintaining operations.
-,,Flask/Express.js;SQLite/MongoDB,,,
