@@ -1,0 +1,23 @@
+﻿id,Attributes,Frameworks,Property,Files,Dev Notes
+1,list_of_bots,Flask/Express.js;SQLite/MongoDB,Server;Database,server_script.py;database_script.py,Store bot data in a scalable DB structure.
+1,active_commands,Flask/Express.js;SQLite/MongoDB,Server;Database,commands_script.py,Manage and queue commands for execution.
+1,server_IP,Flask/Express.js,Server,ip_config.py,Ensure IP is static or reliably dynamic.
+1,communication_port,Flask/Express.js,Server,port_config.py,Port selection should avoid common ports.
+2,bot_ID,Python/Node.js,Client,bot_config.py,Unique identifier for each bot.
+2,current_task,Python/Node.js,Client,tasks_queue.py,Monitor and manage tasks.
+2,last_contact_time,Python/Node.js,Client,timestamp_log.py,Timestamps help in checking bot health.
+3,protocol_type,OpenSSL,CustomProtocol,protocol_definition.py,Custom protocols can be optimized for stealth.
+3,encryption_key,OpenSSL,EncryptedCommunication,encryption_key.py,Rotate encryption keys periodically.
+4,family_name,Metasploit,MalwareFamily,family_config.py,Always test malware in isolated environment.
+4,known_vulnerabilities,Exploit Database,ExploitVulnerability,vuln_db.py,Regularly update with new vulnerabilities.
+4,exploitation_methods,Metasploit,MalwareFamily,exploit_methods.py,Modular design allows easy updates.
+5,phishing_template,GoPhish,PhishingMechanism,phishing_templates/,Use realistic templates for better success.
+5,target_email_list,GoPhish,PhishingMechanism,target_emails.csv,Always ethically source emails.
+6,trojan_payload,msfvenom,TrojanInfection,payload_directory/,Ensure trojan is only for research.
+7,target_IP,LOIC,DDoSCommand,target_list.py,Use only on consented targets.
+7,attack_duration,LOIC,DDoSCommand,duration_config.py,Monitor impact and control duration.
+8,target_data_path,Netcat,DataExfiltrationCommand,data_paths.txt,Regularly rotate and encrypt data.
+9,peer_list,BitTorrent,PeerToPeerCommunication,peer_db.csv,Ensure peer lists are up to date.
+10,seed_value,Domain registration API,DomainGenerationAlgorithm,seed_config.py,Domain generation aids in botnet resilience.
+11,backup_IP_list,Docker/Kubernetes,BackupCommandControlServer,backup_ips.csv,Regular backups are crucial for maintaining operations.
+,,Flask/Express.js;SQLite/MongoDB,,,
